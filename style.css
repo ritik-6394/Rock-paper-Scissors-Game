@@ -1,0 +1,58 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    padding-top: 6rem;
+}
+
+p{
+    font-size: 1rem;
+    margin-top: 2.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+button{
+    font-size: 50px;
+   cursor: pointer;
+   background-color: violet;
+   border-radius: 5px;
+   margin: 0 0.5rem;
+   padding: 0.5rem;
+   transition: all .3s ease-in-out;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+#rock{
+    background-color: red;
+}
+
+#paper{
+    background-color: rgb(58, 58, 224);
+}
+
+#scissors{
+    background-color: rgb(64, 214, 64);
+}
+
+#user-score{
+    color: rgb(48, 149, 244);
+}
+
+#computer-score{
+    color: red;
+}
